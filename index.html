@@ -1,118 +1,566 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yash Tyagi's Portfolio</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+	<!-- meta data -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags must come first in the head; any other head content must come after these tags -->
+
+	<!--font-family-->
+	<link
+		href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext"
+		rel="stylesheet">
+
+	<!-- title of site -->
+	<title>Yash Tyagi Portfolio</title>
+	
+
+	
+	<!--font-awesome.min.css-->
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<!--flat icon css-->
+	<link rel="stylesheet" href="assets/css/flaticon.css">
+
+	<!--animate.css-->
+	<link rel="stylesheet" href="assets/css/animate.css">
+
+	<!--owl.carousel.css-->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+
+	<!--bootstrap.min.css-->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+	<!-- bootsnav -->
+	<link rel="stylesheet" href="assets/css/bootsnav.css">
+
+	<!--style.css-->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!--responsive.css-->
+	<link rel="stylesheet" href="assets/css/responsive.css">
+
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Yash Tyagi</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#education">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+	<!-- top-area Start -->
+	<header class="top-area">
+		<div class="header-area">
+			<!-- Start Navigation -->
+			<nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+				<div class="container">
+					<!-- Start Header Navigation -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+							<i class="fa fa-bars"></i>
+						</button>
+						<a class="navbar-brand" href="index.html">Hey!</a>
+					</div><!--/.navbar-header-->
+					<!-- End Header Navigation -->
 
-    <header class="jumbotron text-center">
-        <div class="container">
-            <h1 class="display-4">Yash Tyagi</h1>
-            <p class="lead">Pursuing Bachelor's in Computer Science & Engineering</p>
-            <p>G.L. Bajaj Institute of Technology and Management, Greater Noida, India</p>
-        </div>
-    </header>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+						<ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+							<li class=" smooth-menu active"></li>
+							<li class=" smooth-menu"><a href="#about">about</a></li>
+							<li class=" smooth-menu"><a href="#education">education</a></li>
+							<li class="smooth-menu"><a href="#skills">skills</a></li>
+							<li class="smooth-menu"><a href="#profiles">profile</a></li>
+							<li class="smooth-menu"><a href="#contact">contact</a></li>
+						</ul><!--/.nav -->
+					</div><!-- /.navbar-collapse -->
+				</div><!--/.container-->
+			</nav><!--/nav-->
+			<!-- End Navigation -->
+		</div><!--/.header-area-->
 
-    <section id="about" class="container my-5">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>About Me</h2>
-                <p>I am deeply passionate about the intersection of technology and problem-solving, which has fueled my journey in the field of computer science.</p>
-                <p>Throughout my academic journey, I have continually sought opportunities to engage with cutting-edge technologies and explore emerging trends in the field. From participating in hackathons to attending workshops and seminars, I am committed to staying abreast of the latest advancements in the ever-evolving landscape of technology.</p>
-                <p>In addition to my academic endeavors, I actively contribute to extracurricular activities and collaborative projects within the university community. These experiences have not only honed my technical skills but have also instilled in me a strong sense of teamwork, leadership, and adaptability – qualities that are essential for success in today's dynamic and fast-paced world.</p>
-            </div>
-        </div>
-    </section>
+		<div class="clearfix"></div>
 
-    <section id="education" class="container my-5">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Education</h2>
-                <ul>
-                    <li><strong>G.L Bajaj Institute Of Engineering And Technology</strong> (Nov. 2021 – Aug. 2025) - Bachelor of Technology in Computer Science and Engineering - 6.5 CGPA, Greater Noida, U.P</li>
-                    <li><strong>Nalanda Public School</strong> (Sept. 2021) - Intermediate-XII - 92.80%, Charthawal, U.P</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+	</header><!-- /.top-area-->
+	<!-- top-area End -->
 
-    <section id="projects" class="container my-5">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Projects</h2>
-                <div class="project">
-                    <h4>Driver Drowsiness Detection System | Python, OpenCV, dlib, scikitlearn (Dec. 2023)</h4>
-                    <ul>
-                        <li>Developed a drowsiness detection system using OpenCV for image and video processing tasks.</li>
-                        <li>Implemented face detection and facial landmark localization using dlib’s pre-trained models.</li>
-                        <li>Utilized NumPy for numerical operations and array manipulation, enhancing the efficiency of facial landmark processing.</li>
-                        <li>Evaluated the performance of the system using metrics provided by scikit-learn, including accuracy and precision.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+	<!--welcome-hero start -->
+	<section id="welcome-hero" class="welcome-hero">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="header-text">
+						<h2>hi <span>,</span> I am <br> Yash <br>   Tyagi <span>.</span> </h2>
+						<p>Machine Learning Enthusiast and Frontend Developer</p>
+						<a href="assets\download\Yash_Tyagi_Resume.pdf" download>Download Resume</a>
+					</div><!--/.header-text-->
+				</div><!--/.col-->
+			</div><!-- /.row-->
+		</div><!-- /.container-->
 
-    <section id="skills" class="container my-5">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Technical Skills</h2>
-                <p><strong>Languages:</strong> C/C++, Python, Java, HTML/CSS, JavaScript, MySQL, MongoDB</p>
-                <p><strong>Developer Tools:</strong> VS Code</p>
-                <p><strong>Technologies/Frameworks:</strong> Hadoop, GitHub, WordPress</p>
-            </div>
-        </div>
-    </section>
+	</section><!--/.welcome-hero-->
+	<!--welcome-hero end -->
 
-    <section id="contact" class="container my-5">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Contact</h2>
-                <p>Yash Tyagi</p>
-                <p>Greater Noida, Uttar Pradesh, India</p>
-                <p>Phone: 7668621078</p>
-                <p>Email: <a href="mailto:tyagiyash510@gmail.com">tyagiyash510@gmail.com</a></p>
-                <p>LinkedIn: <a href="https://www.linkedin.com/in/yash-tyagi-38675a252/">LinkedIn Profile</a></p>
-                <p>GitHub: <a href="https://github.com/YashTyagi25">GitHub Profile</a></p>
-                <p>Leetcode: <a href="https://leetcode.com/u/Yash_tyagi02/">Leetcode Profile</a></p>
-            </div>
-        </div>
-    </section>
+	<!--about start -->
+	<section id="about" class="about">
+		<div class="section-heading text-center">
+			<h2>about me</h2>
+		</div>
+		<div class="container">
+			<div class="about-content">
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="single-about-txt">
+							<h3>
+								Frontend Development | Problem Solving | Machine Learning 
+							</h3>
+							<p>
+								Passionate about technology and personal growth, I am an enthusiastic frontend developer with a strong foundation in creating engaging, user-friendly web applications. I have a keen interest in machine learning, where I explore innovative ways to integrate intelligent solutions into everyday problems, making technology smarter and more efficient.
 
-    <footer class="text-center py-4">
-        <div class="container">
-            <p>&copy; 2024 Yash Tyagi. All rights reserved.</p>
-        </div>
-    </footer>
+Outside of my professional endeavors, I am a fitness enthusiast dedicated to maintaining a balanced and healthy lifestyle. Whether it’s hitting the gym, practicing yoga, or exploring outdoor activities, I believe that physical well-being is essential for optimal performance in all aspects of life.
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+Additionally, I am an avid traveler who enjoys discovering new cultures, cuisines, and landscapes. My journeys inspire my creativity and broaden my perspective, enabling me to bring fresh ideas into my work as a developer. I strive to merge my passions for technology, fitness, and travel to contribute positively to the world around me.
+							</p>
+							<div class="row">
+								<div class="col-sm-4">
+									<div class="single-about-add-info">
+										<h3>phone</h3>
+										<p>7668621078</p>
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="single-about-add-info">
+										<h3>email</h3>
+										<p>tyagiyash510@gmail.com</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-offset-1 col-sm-5">
+						<div class="single-about-img">
+							<img src="assets/images/about/profile_image.jpg" alt="profile_image" style="width: 109%;">
+							<div class="about-list-icon">
+								<ul>
+
+									<li>
+										<a href="https://www.linkedin.com/in/siddharth-sharma-1a0301234/">
+											<i class="fa fa-linkedin" aria-hidden="true"></i>
+										</a>
+									</li><!-- / li -->
+									<li>
+										<a href="https://github.com/SidGit7102">
+											<i class="fa fa-instagram" aria-hidden="true"></i>
+										</a>
+									</li><!-- / li -->
+									<li>
+										<a href="">
+											<i class="fa fa-twitter" aria-hidden="true"></i>
+										</a>
+
+									</li><!-- / li -->
+
+
+								</ul><!-- / ul -->
+							</div><!-- /.about-list-icon -->
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section><!--/.about-->
+	<!--about end -->
+
+	<!--education start -->
+	<section id="education" class="education">
+		<div class="section-heading text-center">
+			<h2>Education</h2>
+		</div>
+		<div class="container">
+			<div class="education-horizontal-timeline">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="single-horizontal-timeline">
+							<div class="experience-time">
+								<h2>2017 - 2019</h2>
+								<h3>High School X</h3>
+							</div><!--/.experience-time-->
+							<div class="timeline-horizontal-border">
+								<i class="fa fa-circle" aria-hidden="true"></i>
+								<span class="single-timeline-horizontal"></span>
+							</div>
+							<div class="timeline">
+								<div class="timeline-content">
+									<h4 class="title">
+										Nalanda Public School
+									</h4>
+									<h5>Muzzafarnagar, Uttar Pradesh</h5>
+									<p class="description">
+										I have spent amazing years in my school.
+									</p>
+								</div><!--/.timeline-content-->
+							</div><!--/.timeline-->
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="single-horizontal-timeline">
+							<div class="experience-time">
+								<h2>2019 - 2021</h2>
+								<h3>Intermediate XII </h3>
+							</div><!--/.experience-time-->
+							<div class="timeline-horizontal-border">
+								<i class="fa fa-circle" aria-hidden="true"></i>
+								<span class="single-timeline-horizontal"></span>
+							</div>
+							<div class="timeline">
+								<div class="timeline-content">
+									<h4 class="title">
+										Nalanda Public School
+									</h4>
+									<h5>Muzzafarnagar, Uttar Pradesh</h5>
+									<p class="description">
+										I have persued Science (PCM).
+									</p>
+								</div><!--/.timeline-content-->
+							</div><!--/.timeline-->
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="single-horizontal-timeline">
+							<div class="experience-time">
+								<h2>2021 - 2025</h2>
+								<h3>Bachelor Of Technology in Computer Science</h3>
+							</div><!--/.experience-time-->
+							<div class="timeline-horizontal-border">
+								<i class="fa fa-circle" aria-hidden="true"></i>
+								<span class="single-timeline-horizontal spacial-horizontal-line
+									"></span>
+							</div>
+							<div class="timeline">
+								<div class="timeline-content">
+									<h4 class="title">
+										G.L Bajaj Institue of Engg. And Tech.
+									</h4>
+									<h5>Greater Noida, Uttar Pradesh</h5>
+									<p class="description">
+										I am currently persuing my B.Tech in CSE.
+									</p>
+								</div><!--/.timeline-content-->
+							</div><!--/.timeline-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section><!--/.education-->
+	<!--education end -->
+	<!--skills start -->
+	<section id="skills" class="skills">
+		<div class="skill-content">
+			<div class="section-heading text-center">
+				<h2>Skills</h2>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="single-skill-content">
+							<div class="barWrapper">
+								<span class="progressText">Python</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="60"
+											aria-valuemin="10" aria-valuemax="100" style="">
+
+										</div>
+									</div>
+									<h3>60%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+							<div class="barWrapper">
+								<span class="progressText">C++</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="50"
+											aria-valuemin="10" aria-valuemax="100" style="">
+
+										</div>
+									</div>
+									<h3>50%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+							<div class="barWrapper">
+								<span class="progressText">Web Development</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="50"
+											aria-valuemin="10" aria-valuemax="100" style="">
+
+										</div>
+									</div>
+									<h3>50%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="single-skill-content">
+							<div class="barWrapper">
+								<span class="progressText">Machine Learning</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="60"
+											aria-valuemin="10" aria-valuemax="100" style="">
+
+										</div>
+									</div>
+									<h3>60%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+							<div class="barWrapper">
+								<span class="progressText">Data Analytics</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="40"
+											aria-valuemin="10" aria-valuemax="100" style="">
+
+										</div>
+									</div>
+									<h3>40%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+							<div class="barWrapper">
+								<span class="progressText">Team Work</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="90"
+											aria-valuemin="10" aria-valuemax="100" style="">
+
+										</div>
+									</div>
+									<h3>70%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+						</div>
+					</div>
+				</div><!-- /.row -->
+			</div> <!-- /.container -->
+		</div><!-- /.skill-content-->
+
+	</section><!--/.skills-->
+
+
+
+	<!--profiles start -->
+	<section id="profiles" class="profiles">
+		<div class="profiles-details">
+			<div class="section-heading text-center">
+				<h2>Profiles</h2>
+			</div>
+			<div class="container">
+				<div class="profiles-content">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="single-profile">
+								<div class="profile-txt">
+									<a href="https://leetcode.com/u/Yash_tyagi02/">LeetCode<i
+											class="flaticon-leetcode"></i></a>
+									<div class="profile-icon-name"></div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="https://leetcode.com/u/Yash_tyagi02/">LeetCode<i
+												class="flaticon-leetcode"></i></a>
+										<div class="profile-icon-name"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="single-profile">
+								<div class="profile-txt">
+									<a href="https://www.hackerrank.com/profile/tyagiyash510">HackerRank<i
+											class="flaticon-dribbble"></i></a>
+									<div class="profile-icon-name"></div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="https://www.hackerrank.com/profile/tyagiyash510">HackerRank<i
+												class="flaticon-dribbble"></i></a>
+										<div class="profile-icon-name"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="single-profile profile-no-border">
+								<div class="profile-txt">
+									<a href="https://github.com/YashTyagi25"><i
+											class="flaticon-github-logo"></i>GitHub</a>
+									<div class="profile-icon-name"></div>
+								</div>
+								<div class="single-profile-overlay">
+									<div class="profile-txt">
+										<a href="https://github.com/YashTyagi25"><i
+												class="flaticon-github-logo"></i>GitHub</a>
+										<div class="profile-icon-name"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+	</section><!--/.profiles-->
+	<!--profiles end -->
+
+
+
+	<!--contact start -->
+	<section id="contact" class="contact">
+		<div class="section-heading text-center">
+			<h2>Contact me</h2>
+		</div>
+		<div class="container">
+			<div class="contact-content">
+				<div class="row">
+					<div class="col-md-offset-1 col-md-5 col-sm-6">
+						<div class="single-contact-box">
+							<div class="contact-form">
+								<form>
+									<div class="row">
+										<div class="col-sm-6 col-xs-12">
+											<div class="form-group">
+												<input type="text" class="form-control" id="name" placeholder="Name*"
+													name="name">
+											</div><!--/.form-group-->
+										</div><!--/.col-->
+										<div class="col-sm-6 col-xs-12">
+											<div class="form-group">
+												<input type="email" class="form-control" id="email" placeholder="Email*"
+													name="email">
+											</div><!--/.form-group-->
+										</div><!--/.col-->
+									</div><!--/.row-->
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="form-group">
+												<input type="text" class="form-control" id="subject"
+													placeholder="Subject" name="subject">
+											</div><!--/.form-group-->
+										</div><!--/.col-->
+									</div><!--/.row-->
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="form-group">
+												<textarea class="form-control" rows="8" id="comment"
+													placeholder="Message"></textarea>
+											</div><!--/.form-group-->
+										</div><!--/.col-->
+									</div><!--/.row-->
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="single-contact-btn">
+												<a class="contact-btn" href="#" role="button">Submit</a>
+											</div><!--/.single-single-contact-btn-->
+										</div><!--/.col-->
+									</div><!--/.row-->
+								</form><!--/form-->
+							</div><!--/.contact-form-->
+						</div><!--/.single-contact-box-->
+					</div><!--/.col-->
+					<div class="col-md-offset-1 col-md-5 col-sm-6">
+						<div class="single-contact-box">
+							<div class="contact-adress">
+								<div class="contact-add-head">
+									<h3>Yash Tyagi</h3>
+									<p>Frontend Developer</p>
+								</div>
+								<div class="contact-add-info">
+									<div class="single-contact-add-info">
+										<h3>Location</h3>
+										<p>Greater Noida, U.P, India</p>
+									</div>
+									<div class="single-contact-add-info">
+										<h3>Email</h3>
+										<p>tyagiyash510@gmail.com</p>
+									</div>
+								</div>
+							</div><!--/.contact-adress-->
+							<div class="hm-foot-icon">
+								<ul>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li><!--/li-->
+									<li><a href="https://www.linkedin.com/in/yash-tyagi-38675a252/"><i
+												class="fa fa-linkedin"></i></a></li><!--/li-->
+									<li><a href="#"><i class="fa fa-instagram"></i></a></li><!--/li-->
+								</ul><!--/ul-->
+							</div><!--/.hm-foot-icon-->
+						</div><!--/.single-contact-box-->
+					</div><!--/.col-->
+				</div><!--/.row-->
+			</div><!--/.contact-content-->
+		</div><!--/.container-->
+
+	</section><!--/.contact-->
+	<!--contact end -->
+
+	<!--footer-copyright start-->
+	<footer id="footer-copyright" class="footer-copyright">
+		<div class="container">
+			<div class="hm-footer-copyright text-center">
+				<p>
+					&copy; copyright Yash Tyagi.</a>
+				</p><!--/p-->
+			</div><!--/.text-center-->
+		</div><!--/.container-->
+
+		<div id="scroll-Top">
+			<div class="return-to-top">
+				<i class="fa fa-angle-up " id="scroll-top"></i>
+			</div>
+
+		</div><!--/.scroll-Top-->
+
+	</footer><!--/.footer-copyright-->
+	<!--footer-copyright end-->
+
+	<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+	<script src="assets/js/jquery.js"></script>
+
+	<!--modernizr.min.js-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+	<!--bootstrap.min.js-->
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<!-- bootsnav js -->
+	<script src="assets/js/bootsnav.js"></script>
+
+	<!-- jquery.sticky.js -->
+	<script src="assets/js/jquery.sticky.js"></script>
+
+	<!-- for progress bar start-->
+
+	<!-- progressbar js -->
+	<script src="assets/js/progressbar.js"></script>
+
+	<!-- appear js -->
+	<script src="assets/js/jquery.appear.js"></script>
+
+	<!-- for progress bar end -->
+
+	<!--owl.carousel.js-->
+	<script src="assets/js/owl.carousel.min.js"></script>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+
+	<!--Custom JS-->
+	<script src="assets/js/custom.js"></script>
+
 </body>
+
 </html>
